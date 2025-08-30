@@ -19,7 +19,7 @@ export default class Game {
     for (let i = 0; i < this.boardSize ** 2; i += 1) {
       const cell = document.createElement('div');
       cell.classList.add('cell');
-      this.gameContainer.append(cell);
+      this.gameContainer.append(cell); // ИСПОЛЬЗУЕМ append
       this.cells.push(cell);
     }
   }
@@ -28,7 +28,7 @@ export default class Game {
     const characterEl = document.createElement('img');
     characterEl.src = goblinImg;
     characterEl.classList.add('goblin');
-    characterEl.alt = 'Goblin character';
+    characterEl.alt = 'Goblin character'; // ДОБАВЛЯЕМ alt
     this.character = characterEl;
   }
 

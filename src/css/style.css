@@ -1,28 +1,8 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-#game-container {
-    margin: 20px auto;
-    width: 400px;
-    height: 400px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
-    background-color: #a5a5a5;
-    border: 2px solid #333;
-    padding: 10px;
-}
-
 .cell {
     background-color: #ccc;
     border: 1px solid #999;
     border-radius: 5px;
     cursor: pointer;
-
 
     display: flex;
     justify-content: center;
